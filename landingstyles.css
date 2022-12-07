@@ -1,0 +1,52 @@
+*{
+  margin: o;
+  padding: 0;
+}
+.headerwrapper{
+  width: 1170px;
+  margin: auto;
+}
+header{
+  background-color: bisque;
+  height: 40vh;
+  width: 100%;
+}
+header p{
+  float: inline-start;
+  position: relative;
+}
+.nav-area{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+.nav-area li{
+  display: inline-block;
+}
+.nav-area li a{
+  color: darkgoldenrod;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: poppins;
+  font-size: 14px;
+}
+.nav-area li a:hover{
+  background-color: lightsalmon;
+  color: brown;
+}
+.nav-area{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+.welcome-text{
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 30px 30px;
+}
+.logo{
+  height: 140px;
+  width: 300px;
+  background-color: orange;
+}
